@@ -28,9 +28,12 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles.scss",
+              "./node_modules/frappe-gantt/dist/frappe-gantt.css",
             ],
-            "scripts": []
+            "scripts": [
+              "./node_modules/frappe-gantt/dist/frappe-gantt.min.js",
+            ]
           },
           "configurations": {
             "production": {
@@ -93,9 +96,12 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles.scss",
+              "./node_modules/frappe-gantt/dist/frappe-gantt.css"
             ],
-            "scripts": []
+            "scripts": [
+              "./node_modules/frappe-gantt/dist/frappe-gantt.min.js",
+            ]
           }
         },
         "lint": {
