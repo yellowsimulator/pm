@@ -1,0 +1,67 @@
+experiment1:
+  file_format: "ASCII"
+  recording_date: "October 22, 2003 12:06:24 - November 25, 2003 23:39:56"
+  number_of_files: 2156
+  number_of_channels: 8
+  sampling_rate_in_Hz: 20000
+  time_per_recording_in_second: 1
+  number_of_bearings: 4
+  channel:
+    bearing1: [0, 1]
+    bearing2: [2, 3]
+    bearing3: [4, 5]
+    bearing4: [6, 7]
+  experiment_result_long_description: "At the end of the test-to-failure experiment, 
+                      inner race defect occurred in bearing 3 and 
+                      roller element defect in bearing 4."
+  experiment_result_short_description:
+    bearing3: "bpfi"
+    bearing4: "roller"
+  file_recording_interval: "Every 10 minutes (except the first 43 
+                            files were taken every 5 minutes)"
+
+
+experiment2:
+  file_format: "ASCII"
+  recording_date: "February 12, 2004 10:32:39 - February 19, 2004 06:22:39"
+  number_of_files: 984
+  number_of_channels: 4
+  sampling_rate_in_Hz: 20000
+  time_per_recording_in_second: 1
+  number_of_bearings: 4
+  channel:
+    bearing1: [0]
+    bearing2: [1]
+    bearing3: [2]
+    bearing4: [3]
+  experiment_result_long_description: "At the end of the test-to-failure experiment,
+                      outer race failure occurred in bearing 1"
+  experiment_result_short_description:
+    bearing1: "bpfo"
+  file_recording_interval: "Every 10 minutes"
+
+
+
+
+experiment3:
+  file_format: "ASCII"
+  recording_date: "February 12, 2004 10:32:39 - February 19, 2004 06:22:39"
+  number_of_files: 4448
+  number_of_channels: 4
+  sampling_rate_in_Hz: 20000
+  time_per_recording_in_second: 1
+  number_of_bearings: 4
+  channel:
+    bearing1: [0]
+    bearing2: [1]
+    bearing3: [2]
+    bearing4: [3]
+  experiment_result_long_description: "At the end of the test-to-failure experiment,
+                                       outer race failure occurred in bearing 3"
+  experiment_result_short_description:
+    bearing3: "bpfo"
+  file_recording_interval: "Every 10 minutes"
+
+reference: "Hai Qiu, Jay Lee, Jing Lin. “Wavelet Filter-based Weak Signature
+ Detection Method and its Application on Roller Bearing Prognostics.”
+ Journal of Sound and Vibration 289 (2006) 1066-1090"
